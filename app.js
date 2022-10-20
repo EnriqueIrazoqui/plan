@@ -38,7 +38,7 @@ app.use('/v1/competenciastema', require('./routes/competenciastema-routes.js') )
 
 app.use('/v1/actividades', require('./routes/actividades-routes.js') );
 
-app.use('/v1/subtemas', require('./routes') );
+app.use('/v1/subtemas', require('./routes/subtemas-routes') );
 
 
 app.listen(process.env.NODE_PORT, () => {
